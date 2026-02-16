@@ -1,0 +1,41 @@
+.add-user{
+    width: 25%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(37, 94, 104, 0.1);
+}
+
+.mb-3{
+   width: 100%;
+   display: flex; 
+   flex-direction: column;
+}
+
+.form-label{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.add-user h3{
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: darkcyan;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 8px rgba(255, 85, 0, 0.1);
+}
+
+/* .add-user mb-3 btn btn-primary{
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+} */

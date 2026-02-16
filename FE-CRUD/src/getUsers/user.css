@@ -1,0 +1,39 @@
+/* *{
+    background-color: rgb(226, 254, 255);
+} */
+
+
+.userTable {
+    width: 60%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 8px rgba(209, 47, 47, 0.1);
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    /* padding: 10px; */
+    margin-bottom: 10px;
+}
+
+.userTable table th{
+    background-color: darkcyan;
+    color: white;
+    text-align: left;
+    padding: 8px;
+}
+
+.userTable table tbody td{
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.actionButtons{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}

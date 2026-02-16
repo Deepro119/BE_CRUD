@@ -32,7 +32,7 @@ const User = () => {
             })
               
         } catch (error) {
-            console.log("Error deleting user:", error);
+            console.log("Error deleting particular user:", error);
         }
     }
 

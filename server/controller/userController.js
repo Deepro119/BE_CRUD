@@ -76,3 +76,5 @@ export const deleteUser = async (req,res) => {
         res.status(500).json({errorMessage: error.message})
     }
 }
+
+
